@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nlp-experimentation"
+version = "0.1.0"
+description = "The repository contains code and models for Natural Language Processing applications."
+authors = ["Simone Porreca <porrecasimone@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
